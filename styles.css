@@ -1,0 +1,234 @@
+
+/* all pages */
+body {
+    margin: 0;
+    background-color: lightblue;
+    text-align: center;
+}
+
+
+footer {
+    padding: 20px;
+    background-color: #F8F9FA;
+    text-align: center;
+  }
+
+/*Homepage*/
+#top {
+
+    height: 400px;
+    background-image: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+    url("https://cdn.pixabay.com/photo/2016/02/19/11/19/computer-1209641__340.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*flex-direction: column;*/
+    flex-wrap: wrap;
+
+    
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    
+    font-size: 2.5rem;
+
+}
+
+#arrow {
+    background-color: white;
+    border-radius: 100%;
+    width: 50px;
+    display: flex;
+    align-self: flex-end;
+    justify-self: center;
+}
+
+
+#pay {
+    height: 500px;
+    background-color: beige;
+    background-image: url("https://cdn.pixabay.com/photo/2014/10/23/10/10/dollar-499481_960_720.jpg");
+    display: flex;
+    align-self: center ;
+}
+.content{
+    background-color: white;
+    opacity: 0.8;
+
+    padding: 30px;
+
+}
+
+.content h2 {
+    color: black;
+
+}
+
+#availability {
+    height: 500px;
+    padding: 30px;
+
+}
+#growth {
+    width: 400px;
+  }
+
+  #super {
+      height: 550px;
+      background-color: cadetblue;
+      background-image: url("https://img.icons8.com/officexs/2x/superman.png");
+      display: flex;
+      align-items: center;
+  }
+
+
+
+
+  
+/*media queries*/
+@media only screen and (max-width: 430px) {
+    body {
+      text-align: center;
+    }
+
+    #growth {
+        width: 200px;
+      }
+      #cpu {
+        width: 300px;
+    }
+  }
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    body {
+    }
+    #growth {
+        display: float;
+        float: right;
+      }
+      #viewResources, #viewVideos, #free, #paid {
+        height: 600px;
+        width: 50%;
+    }
+    #toView, #websites {
+        display: flex;
+        flex-direction: row;
+    }
+
+  }
+  
+
+
+/*about page*/
+  #gettingStarted {
+      text-align: center;
+      padding: 80px 30px;
+  }
+
+  #viewResources, #viewVideos {
+      height: 600px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    #viewResources {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),url("https://cdn.pixabay.com/photo/2017/07/02/09/03/books-2463779_960_720.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+
+    #viewVideos {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),url("https://cdn.pixabay.com/photo/2015/01/21/14/14/apple-606761_960_720.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+
+/*resources page */
+
+
+#free, #paid {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+  .bigText {
+      font-size: 30px;
+  }
+
+  #websites {
+      margin-top: 50px;
+  }
+
+  h1 {
+      margin: 20px;
+  }
+
+
+
+
+/*videos*/
+/*media queries*/
+@media only screen and (max-width: 430px) {
+  iframe {
+    width: 310;
+    height: 300;
+    margin: 20px 0;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  iframe {
+  width: 500px;
+  height: 285px;
+  margin: 30px;
+  }
+}
+
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+iframe {
+  width: 500px;
+  height: 280px;
+  margin: 30px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
